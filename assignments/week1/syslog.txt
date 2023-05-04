@@ -1,0 +1,3 @@
+[COURSE:1][ASSIGNMENT:1] Linux raspberrypi 5.15.56-v7l+ #1575 SMP Fri Jul 22 20:29:46 BST 2022 armv7l GNU/Linux
+May  4 09:22:31 raspberrypi pthread: [COURSE:1][ASSIGNMENT:1] Hello World from Main!
+May  4 09:22:31 raspberrypi pthread: [COURSE:1][ASSIGNMENT:1] Hello World from Thread!
