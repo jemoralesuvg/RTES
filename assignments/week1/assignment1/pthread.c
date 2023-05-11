@@ -21,25 +21,21 @@ threadParams_t threadParams[NUM_THREADS];
 
 void *counterThread(void *threadp)
 {
-    int sum=0, i;
+    //int sum=0, i;
+	//get params for thread ID
     threadParams_t *threadParams = (threadParams_t *)threadp;
 
-    for(i=1; i < (threadParams->threadIdx)+1; i++)
-        sum=sum+i;
- 
- 
+    //for(i=1; i < (threadParams->threadIdx)+1; i++)
+    //    sum=sum+i;
+	// print hello from thread
     syslog(LOG_CRIT,"[COURSE:1][ASSIGNMENT:1] Hello World from Thread!" );
-    //printf("Thread idx=%d, sum[0...%d]=%d\n", 
-     //      threadParams->threadIdx,
-     //      threadParams->threadIdx, sum);
 }
 
 
 int main (int argc, char *argv[])
 {
-   int rc;
-   int i;
-  
+	int i;
+	// get system name
     struct utsname uts;
     int err = uname(&uts);
     if (err != 0){
@@ -48,24 +44,23 @@ int main (int argc, char *argv[])
     }
     
     syslog(LOG_CRIT, "%s %s %s %s %s GNU/Linux" ,uts.sysname, uts.nodename, uts.release, uts.version, uts.machine);
-    //syslog(LOG_CRIT, "hello %s \n name" ,uts.nodename);
-    //syslog(LOG_CRIT, "hello %s \n name" ,uts.release);
+	//print hello from main
     syslog(LOG_CRIT,"[COURSE:1][ASSIGNMENT:1] Hello World from Main!" );
      
-   for(i=0; i < NUM_THREADS; i++)
-   {
-       threadParams[i].threadIdx=i;
+	for(i=0; i < NUM_THREADS; i++)
+	{
+		threadParams[i].threadIdx=i;
 
-       pthread_create(&threads[i],   // pointer to thread descriptor
-                      (void *)0,     // use default attributes
-                      counterThread, // thread function entry point
-                      (void *)&(threadParams[i]) // parameters to pass in
-                     );
+		pthread_create(&threads[i],   // pointer to thread descriptor
+						(void *)0,     // use default attributes
+						counterThread, // thread function entry point
+						(void *)&(threadParams[i]) // parameters to pass in
+						);
 
-   }
+	}
 
-   for(i=0;i<NUM_THREADS;i++)
-       pthread_join(threads[i], NULL);
+	for(i=0;i<NUM_THREADS;i++)
+		pthread_join(threads[i], NULL);
 
    //printf("TEST COMPLETE\n");
 }
