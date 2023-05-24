@@ -1,0 +1,21 @@
+[COURSE:2][ASSIGNMENT:1] Linux raspberrypi 5.15.56-v7l+ #1575 SMP Fri Jul 22 20:29:46 BST 2022 armv7l GNU/Linux
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 1 @ 1.012261629 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 2 start 1 @ 1.020906210 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 3 start 1 @ 1.029450893 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 2 @ 1.032206774 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 3 @ 1.052132130 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 4 @ 1.072050571 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 5 @ 1.091976166 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 6 @ 1.111904383 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 2 start 2 @ 1.116927624 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 7 @ 1.131830215 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 8 @ 1.151763201 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 3 start 2 @ 1.161694050 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 9 @ 1.171692133 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 10 @ 1.191615343 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 11 @ 1.211546659 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 2 start 3 @ 1.217091084 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 12 @ 1.231505871 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 13 @ 1.251453400 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 14 @ 1.271408558 on core 3
+May 22 23:43:55 raspberrypi pthread: [COURSE:2][ASSIGNMENT:1] Thread 1 start 15 @ 1.282003164 on core 3
